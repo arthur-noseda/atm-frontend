@@ -1,8 +1,6 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 
-require('babel-plugin-require-context-hook/register')();
-
 Vue.use(VueI18n);
 
 function loadLocaleMessages() {
